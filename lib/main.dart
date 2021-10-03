@@ -165,7 +165,7 @@ class Card1 extends StatelessWidget {
                     ExpandableTheme(
                       data: const ExpandableThemeData(
                         iconColor: Colors.blue,
-                        useInkWell: true,
+                        animationDuration: Duration(milliseconds: 500),
                       ),
                       child: ExpandableNotifier(
                         child: ScrollOnExpand(
